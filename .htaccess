@@ -1,0 +1,7 @@
+<Files "*.sh">
+  Require all denied
+</Files>
+
+<Files "people.txt">
+  Require all denied
+</Files>
