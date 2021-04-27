@@ -2,6 +2,10 @@
   Require all denied
 </Files>
 
+<Files "config.*">
+  Require all denied
+</Files>
+
 <Files "people.txt">
   Require all denied
 </Files>
