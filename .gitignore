@@ -1,19 +1,4 @@
-# Default ignored files
-
-# PhpStorm
-/\.idea/
-
-# Dreamweaver
-_notes
-_compareTemp
-configs/
-dwsync.xml
-dw_php_codehinting.config
-*.mno
-
-# OSX
-.DS_Store
+*.code-workspace
 
 # This Site:
 config.php
-actions.sh
