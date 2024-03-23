@@ -10,7 +10,7 @@ Centered around [MikroTik](https://mikrotik.com/) routers and their [API](https:
 
 Have a Minecraft server at home that you don't want exposed to anyone but your friends?
 
-1. Create the following MikroTik firewall rule _(you may need to specify dst-address=107.132.227.23)_:
+1. Create the following MikroTik firewall rule _(you may need to specify your external IP `dst-address=1.2.3.4`)_:
    `action=netmap chain=dstnat comment=PiCraft dst-port=25565 protocol=tcp src-address-list=allowMINE to-addresses=10.0.0.212 to-ports=25565`
 2. Add the following to your **config.php** $pws array:
    `'Cr4fty PW!' => array('user' => 'MINE', 'expire' => '8 hours'),`
